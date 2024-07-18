@@ -1,9 +1,9 @@
-export default function ProductViewPage() {
+const ProductViewPage = () => {
     return (
-      <>
-        <h1>TESTANDO ROTAS</h1>
-        
-      </>
-    )
-  }
-  
+        <>
+            <h1>TESTANDO PRODUTOS</h1>
+        </>
+    );
+};
+
+export default ProductViewPage;

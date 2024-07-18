@@ -1,8 +1,5 @@
-export default function FilterGroup() {
-    return (
-      <>
-        
-      </>
-    )
-  }
-  
+const FilterGroup = () => {
+    return <></>;
+};
+
+export default FilterGroup;

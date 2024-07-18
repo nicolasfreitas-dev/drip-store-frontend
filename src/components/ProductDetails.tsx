@@ -1,8 +1,5 @@
-export default function ProductDetails() {
-    return (
-      <>
-        
-      </>
-    )
-  }
-  
+const ProductDetails = () => {
+    return <></>;
+};
+
+export default ProductDetails;

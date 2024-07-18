@@ -1,8 +1,5 @@
-export default function Gallery() {
-    return (
-      <>
-        
-      </>
-    )
-  }
-  
+const Gallery = () => {
+    return <></>;
+};
+
+export default Gallery;

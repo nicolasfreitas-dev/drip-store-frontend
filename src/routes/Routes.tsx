@@ -1,20 +1,21 @@
-import HomePage from "@/pages/HomePage"
-import PageLayout from "@/pages/layout/PageLayout"
-import ProductListingPage from "@/pages/ProductListingPage"
-import ProductViewPage from "@/pages/ProductViewPage"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "@/pages/HomePage";
+import PageLayout from "@/pages/layout/PageLayout";
+import ProductListingPage from "@/pages/ProductListingPage";
+import ProductViewPage from "@/pages/ProductViewPage";
 
-
-export default function AppRoutes() {
+const AppRoutes = () => {
     return (
         <Router>
             <Routes>
                 <Route path="/" element={<PageLayout />}>
                     <Route index element={<HomePage />} />
-                    <Route path="/products" element={<ProductViewPage />} />
-                    <Route path="/productslist" element={<ProductListingPage />} />
+                    <Route path="/produtos" element={<ProductViewPage />} />
+                    <Route path="/listadeprodutos" element={<ProductListingPage />} />
                 </Route>
             </Routes>
         </Router>
-    )
-}
+    );
+};
+
+export default AppRoutes;

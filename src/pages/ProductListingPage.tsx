@@ -1,9 +1,9 @@
-export default function ProductListingPage() {
+const ProductListingPage = () => {
     return (
-      <>
-        <h1>TESTANDO ROTAS</h1>
-        
-      </>
-    )
-  }
-  
+        <>
+            <h1>TESTANDO LISTA DE PRODUTOS</h1>
+        </>
+    );
+};
+
+export default ProductListingPage;

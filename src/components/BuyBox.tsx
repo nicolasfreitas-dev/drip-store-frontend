@@ -1,8 +1,5 @@
-export default function BuyBox() {
-    return (
-      <>
-        
-      </>
-    )
-  }
-  
+const BuyBox = () => {
+    return <></>;
+};
+
+export default BuyBox;

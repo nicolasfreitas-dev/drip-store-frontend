@@ -1,8 +1,5 @@
-export default function Section() {
-    return (
-      <>
-        
-      </>
-    )
-  }
-  
+const Section = () => {
+    return <></>;
+};
+
+export default Section;
