@@ -5,63 +5,7 @@ import instagramIcon from "@/assets/instagram.svg";
 import twitterIcon from "@/assets/twitter.svg";
 import Informations from "@/components/Informations";
 import { Link } from "react-router-dom";
-
-const infos = [
-    {
-        text: "Sobre Drip Store",
-        link: "/sobre",
-    },
-    {
-        text: "Segurança",
-        link: "/seguranca",
-    },
-    {
-        text: "Wishlist",
-        link: "/wishlist",
-    },
-    {
-        text: "Blog",
-        link: "/blog",
-    },
-    {
-        text: "",
-        link: "/Meus pedidos",
-    },
-];
-
-const categorias = [
-    {
-        text: "Camisetas",
-        link: "/camisetas",
-    },
-    {
-        text: "Calças",
-        link: "/calcas",
-    },
-    {
-        text: "Bonés",
-        link: "/bones",
-    },
-    {
-        text: "Headphones",
-        link: "/headphones",
-    },
-    {
-        text: "Tênis",
-        link: "/tenis",
-    },
-];
-
-const contato = [
-    {
-        text: "Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161",
-        link: "/maps",
-    },
-    {
-        text: "(85) 3051-3411",
-        link: "/whatsapp",
-    },
-];
+import { infos, categorias, contato } from "@/utils/footerInfos";
 
 const Footer = () => {
     return (

@@ -12,9 +12,11 @@ export default {
         primary: "#C92071",
         secondary: "#B5B6F2",
         tertiary: "#991956",
+        quaternary: "#F9F8FE",
         error: "#EE4266",
         success: "#52CA76",
         warning: "#F6AA1C",
+        discount: "#E7FF86",
   
         // GRAYSCALE
         darkGray: "#1F1F1F",

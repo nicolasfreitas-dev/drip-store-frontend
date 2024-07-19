@@ -1,12 +1,7 @@
+import { LogoProps } from "@/types/types";
 import React, { ReactNode } from "react";
 
-type LogoProps = {
-    src: string;
-    alt: string;
-    className: string;
-};
-
-const Logo: React.FC<LogoProps> = ({ src, alt, className }): ReactNode => {
+const Logo: React.FC<LogoProps> = ({ src, alt, className }) => {
     return (
         <>
             <img className={className} src={src} alt={alt} />

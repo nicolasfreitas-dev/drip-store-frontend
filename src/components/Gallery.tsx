@@ -1,26 +1,14 @@
 import React, { ReactNode } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 import { register } from "swiper/element";
+import { GalleryProps } from "@/types/types";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-type sliderImages = {
-    src: string;
-    alt: string;
-};
 
-type GalleryProps = {
-    className: string;
-    width: string;
-    height: string;
-    imageStyle?: string;
-    images: sliderImages[];
-    radius?: string;
-    showThumbs?: boolean;
-};
 
 register();
 
@@ -32,13 +20,17 @@ const Gallery: React.FC<GalleryProps> = ({
     showThumbs,
     imageStyle,
     images,
-}): ReactNode => {
+}) => {
     return (
         <Swiper
             slidesPerView={1}
             pagination={{ clickable: true }}
-            autoplay
-            modules={[Pagination]}
+            autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+              }}
+              speed={1500}
+            modules={[Pagination, Autoplay]}
             className={className}
         >
             {images.map((item, index) => (

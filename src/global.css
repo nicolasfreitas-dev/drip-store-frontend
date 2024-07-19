@@ -10,6 +10,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Inter", sans-serif;
+  background-color: #F9F8FE;
 }
 
 .swiper-pagination-bullet {

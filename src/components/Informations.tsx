@@ -1,22 +1,12 @@
+import { InformationsProps } from "@/types/types";
 import React, { ReactNode } from "react";
 import { Link } from "react-router-dom";
-
-type Infos = {
-    text: string;
-    link: string;
-};
-
-type InformationsProps = {
-    title: string;
-    informations: Infos[];
-    className: string;
-};
 
 const Informations: React.FC<InformationsProps> = ({
     title,
     informations,
     className,
-}): ReactNode => {
+}) => {
     return (
         <div>
             <div className="font-bold text-[1.8rem] mb-9">{title}</div>

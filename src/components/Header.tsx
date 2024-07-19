@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
-        <header className="max-w-full px-[10rem]">
+        <header className="max-w-full px-[10rem] bg-white">
             <div className="flex items-center pt-[3.6rem]">
                 <Logo
                     className={"w-96 h-16"}
