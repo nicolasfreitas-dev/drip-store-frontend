@@ -2,17 +2,17 @@ import Gallery from "@/components/Gallery";
 import Section from "@/components/Section";
 import { Button } from "@/components/ui/button";
 import ProductListing from "@/components/ProductListing";
-import ornament from "../../public/ornament.png";
-import destaqueImg1 from "../../public/collection-1.png";
-import destaqueImg2 from "../../public/collection-2.png";
-import destaqueImg3 from "../../public/collection-3.png";
-import shirt from "../../public/tshirt-_1_.png";
-import pants from "../../public/pants.png";
-import headphones from "../../public/headphones_1.png";
-import shoes from "../../public/Group.png";
+import SpecialOffer from "@/components/SpecialOffer";
 import { homeImages } from "@/utils/homeImages";
 import { products, showMoreProducts } from "@/utils/products";
-import SpecialOffer from "@/components/SpecialOffer";
+import ornament from "@/public/ornament.png";
+import destaqueImg1 from "@/public/collection-1.png";
+import destaqueImg2 from "@/public/collection-2.png";
+import destaqueImg3 from "@/public/collection-3.png";
+import shirt from "@/public/tshirt-_1_.png";
+import pants from "@/public/pants.png";
+import headphones from "@/public/headphones_1.png";
+import shoes from "@/public/Group.png";
 
 const HomePage = () => {
     return (

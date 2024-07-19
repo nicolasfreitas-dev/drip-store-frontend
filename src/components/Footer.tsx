@@ -1,5 +1,5 @@
 import Logo from "@/components/Logo";
-import logoFooter from "@/assets/logo-footer.svg";
+import logoFooter from "@/assets/logo-footer.png";
 import facebookIcon from "@/assets/facebook.svg";
 import instagramIcon from "@/assets/instagram.svg";
 import twitterIcon from "@/assets/twitter.svg";

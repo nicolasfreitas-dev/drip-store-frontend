@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import blackSneakers from "../../public/black-white-sneakers.png";
+import blackSneakers from "@/public/black-white-sneakers.png";
 
 const SpecialOffer = () => {
     return (

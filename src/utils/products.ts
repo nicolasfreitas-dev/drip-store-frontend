@@ -1,7 +1,7 @@
 export const products = [
     {
         name: "K-Swiss V8 - Masculino",
-        image: "../../public/white-blue-sneakers.png",
+        image: "/white-blue-sneakers.png",
         label: "Tênis",
         alt: "Tênis K-Swiss",
         price: 200,
@@ -9,7 +9,7 @@ export const products = [
     },
     {
         name: "K-Swiss V8 - Masculino",
-        image: "../../public/white-blue-sneakers.png",
+        image: "/white-blue-sneakers.png",
         label: "Tênis",
         alt: "Tênis K-Swiss",
         price: 200,
@@ -17,7 +17,7 @@ export const products = [
     },
     {
         name: "K-Swiss V8 - Masculino",
-        image: "../../public/white-blue-sneakers.png",
+        image: "/white-blue-sneakers.png",
         label: "Tênis",
         alt: "Tênis K-Swiss",
         price: 200,
@@ -25,7 +25,7 @@ export const products = [
     },
     {
         name: "K-Swiss V8 - Masculino",
-        image: "../../public/white-blue-sneakers.png",
+        image: "/white-blue-sneakers.png",
         label: "Tênis",
         alt: "Tênis K-Swiss",
         price: 200,
@@ -33,7 +33,7 @@ export const products = [
     },
     {
         name: "K-Swiss V8 - Masculino",
-        image: "../../public/white-blue-sneakers.png",
+        image: "/white-blue-sneakers.png",
         label: "Tênis",
         alt: "Tênis K-Swiss",
         price: 200,
@@ -41,7 +41,7 @@ export const products = [
     },
     {
         name: "K-Swiss V8 - Masculino",
-        image: "../../public/white-blue-sneakers.png",
+        image: "/white-blue-sneakers.png",
         label: "Tênis",
         alt: "Tênis K-Swiss",
         price: 200,
@@ -49,7 +49,7 @@ export const products = [
     },
     {
         name: "K-Swiss V8 - Masculino",
-        image: "../../public/white-blue-sneakers.png",
+        image: "/white-blue-sneakers.png",
         label: "Tênis",
         alt: "Tênis K-Swiss",
         price: 200,
@@ -57,7 +57,7 @@ export const products = [
     },
     {
         name: "K-Swiss V8 - Masculino",
-        image: "../../public/white-blue-sneakers.png",
+        image: "/white-blue-sneakers.png",
         label: "Tênis",
         alt: "Tênis K-Swiss",
         price: 200,

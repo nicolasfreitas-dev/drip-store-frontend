@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import React from "react";
 import ProductCard from "@/components/ProductCard";
 import { ProductListingProps } from "@/types/types";
 
