@@ -105,9 +105,11 @@ const HomePage = () => {
                 </Section>
                 <Section
                     title={"Produtos em alta"}
+                    titleStyle="w-full text-[2.4rem]"
                     link={showMoreProducts}
                     titleAlign={"left"}
                     className={"w-full"}
+                    isList={false}
                 >
                     <ProductListing
                         className="w-full grid grid-cols-4 gap-[2.4rem]"

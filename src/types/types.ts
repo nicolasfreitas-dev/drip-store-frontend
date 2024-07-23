@@ -1,16 +1,11 @@
 import { ReactNode } from "react";
 
-type sliderImages = {
-    src: string;
-    alt: string;
-};
-
 export type GalleryProps = {
     className: string;
     width: string;
     height: string;
     imageStyle?: string;
-    images: sliderImages[];
+    images: Array<{ src: string; alt: string; }>;
     radius?: string;
     showThumbs?: boolean;
 };
@@ -40,20 +35,17 @@ export type ProductListingProps = {
 
 export type SectionProps = {
     title: string;
+    titleStyle?: string;
     titleAlign: string;
     className?: string;
     children: ReactNode;
-    link?: Array<{text: string; href: string;}>;
-};
-
-export type Infos = {
-    text: string;
-    link: string;
+    isList?: boolean;
+    link?: Array<{ text: string; href: string; }>;
 };
 
 export type InformationsProps = {
     title: string;
-    informations: Infos[];
+    informations: Array<{ text: string; link: string }>;
     className: string;
 };
 
@@ -67,4 +59,10 @@ export type CollectionProps = {
     src: string;
     alt: string;
     imagePosition?: string;
-}
+};
+
+export type FilterGroupProps = {
+    title: string;
+    inputType: string;
+    options: Array<{ text: string; values?: string; }>;
+};
