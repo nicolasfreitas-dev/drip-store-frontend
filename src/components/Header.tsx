@@ -22,7 +22,7 @@ const Header = () => {
                     />
                     <Search className="size-[2.4rem] text-lightGray2" />
                 </div>
-                <span className="w-fit text-darkGray2 underline underline-offset-4 text-[1.6rem] mr-[6.4rem] cursor-pointer">
+                <span className="w-fit text-darkGray2 underline underline-offset-4 text-[1.6rem] mr-[6.4rem] cursor-pointer hover:text-primary">
                     Cadastre-se
                 </span>
                 <Button className="w-[10rem] h-[4rem] text-white font-bold text-[1.6rem] rounded-[0.8rem] mr-[9.6rem] hover:scale-105 transition-all ease-in-out duration-200">

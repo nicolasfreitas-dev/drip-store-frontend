@@ -13,6 +13,7 @@ import shirt from "@/public/tshirt-_1_.png";
 import pants from "@/public/pants.png";
 import headphones from "@/public/headphones_1.png";
 import shoes from "@/public/Group.png";
+import Collection from "@/components/Collection";
 
 const HomePage = () => {
     return (
@@ -55,45 +56,9 @@ const HomePage = () => {
                     titleAlign="left"
                 >
                     <div className="flex items-start justify-between w-full h-[37.1rem]">
-                        <div>
-                            <span className="flex items-center w-fit rounded-[29px] font-bold px-[1.7rem] py-[0.8rem] text-[1.6rem] text-darkGray2 bg-discount relative left-[10px] top-[4.5rem]">
-                                30% OFF
-                            </span>
-                            <img
-                                className="w-[40rem] h-[25rem] rounded-[0.4rem]"
-                                src={destaqueImg1}
-                                alt="Nova coleção da Supreme"
-                            />
-                            <Button className="w-[15.3rem] h-[4.8rem] rounded-[0.8rem] bg-lightGray3 font-bold text-primary text-[1.6rem] relative left-[10px] bottom-[7rem]">
-                                Comprar
-                            </Button>
-                        </div>
-                        <div>
-                            <span className="flex items-center w-fit rounded-[29px] font-bold px-[1.7rem] py-[0.8rem] text-[1.6rem] text-darkGray2 bg-discount relative left-[10px] top-[4.5rem]">
-                                30% OFF
-                            </span>
-                            <img
-                                className="w-[40rem] h-[25rem] rounded-[0.4rem]"
-                                src={destaqueImg2}
-                                alt="Nova coleção da Adidas"
-                            />
-                            <Button className="w-[15.3rem] h-[4.8rem] rounded-[0.8rem] bg-lightGray3 font-bold text-primary text-[1.6rem] relative left-[10px] bottom-[7rem]">
-                                Comprar
-                            </Button>
-                        </div>
-                        <div>
-                            <span className="flex items-center w-fit rounded-[29px] font-bold px-[1.7rem] py-[0.8rem] text-[1.6rem] text-darkGray2 bg-discount relative left-[10px] top-[4.5rem]">
-                                30% OFF
-                            </span>
-                            <img
-                                className="w-[40rem] h-[25rem] rounded-[0.4rem]"
-                                src={destaqueImg3}
-                                alt="Nova beat bass"
-                            />
-                            <Button className="w-[15.3rem] h-[4.8rem] rounded-[0.8rem] bg-lightGray3 font-bold text-primary text-[1.6rem] relative left-[10px] bottom-[7rem]">
-                                Comprar
-                            </Button>
-                        </div>
+                        <Collection src={destaqueImg1} alt="Nova coleção Supreme" imagePosition="relative right-[2.1rem] z-0" />
+                        <Collection src={destaqueImg2} alt="Coleção Adidas" />
+                        <Collection src={destaqueImg3} alt="Novo beat bass" imagePosition="relative left-1 z-0" />
                     </div>
                 </Section>
                 <Section

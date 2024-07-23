@@ -15,7 +15,7 @@ const Informations: React.FC<InformationsProps> = ({
                     return (
                         <div className={className} key={index}>
                             <Link to={item.link}>
-                                <span>{item.text}</span>
+                                <span className="hover:text-primary">{item.text}</span>
                             </Link>
                         </div>
                     );

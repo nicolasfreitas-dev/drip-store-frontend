@@ -17,6 +17,7 @@ export default {
         success: "#52CA76",
         warning: "#F6AA1C",
         discount: "#E7FF86",
+        emphasis: "#D8E3F2",
   
         // GRAYSCALE
         darkGray: "#1F1F1F",

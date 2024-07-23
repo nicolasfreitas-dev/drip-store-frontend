@@ -26,10 +26,10 @@ const Gallery: React.FC<GalleryProps> = ({
             slidesPerView={1}
             pagination={{ clickable: true }}
             autoplay={{
-                delay: 3000,
+                delay: 2000,
                 disableOnInteraction: false,
               }}
-              speed={1500}
+              speed={1000}
             modules={[Pagination, Autoplay]}
             className={className}
         >

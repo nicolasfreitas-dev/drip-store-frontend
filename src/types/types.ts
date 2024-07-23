@@ -62,3 +62,9 @@ export type LogoProps = {
     alt: string;
     className: string;
 };
+
+export type CollectionProps = {
+    src: string;
+    alt: string;
+    imagePosition?: string;
+}
