@@ -8,8 +8,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-
-
 register();
 
 const Gallery: React.FC<GalleryProps> = ({
@@ -19,12 +17,15 @@ const Gallery: React.FC<GalleryProps> = ({
     radius,
     showThumbs,
     imageStyle,
+    swiperClass,
+    navigation,
     images,
 }) => {
     return (
         <Swiper
             slidesPerView={1}
             pagination={{ clickable: true }}
+            navigation={navigation}
             autoplay={{
                 delay: 2000,
                 disableOnInteraction: false,
@@ -32,9 +33,10 @@ const Gallery: React.FC<GalleryProps> = ({
               speed={1000}
             modules={[Pagination, Autoplay]}
             className={className}
+            style={{ width: width, height: height }}
         >
             {images.map((item, index) => (
-                <SwiperSlide style={{ width: width, height: height }} key={index}>
+                <SwiperSlide className={swiperClass} key={index}>
                     <img className={imageStyle} src={item.src} alt={item.alt} />
                 </SwiperSlide>
             ))}

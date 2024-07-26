@@ -44,8 +44,9 @@ const HomePage = () => {
             </div>
             <Gallery
                 className="relative z-[0]"
-                width="70rem"
-                height="68.1rem"
+                navigation={false}
+                width="100%"
+                height="681px"
                 imageStyle="relative left-[50rem] bottom-12 object-contain"
                 images={homeImages}
             />
