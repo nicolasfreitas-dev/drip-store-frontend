@@ -73,8 +73,11 @@ export type BuyBoxProps = {
     produto: Array<{
         name: string;
         reference: Array<{ estilo: string; marca: string; ref: number }>;
-        stars: number;
+        stars: {
+            src: string;
+        };
         rating: number;
+        totalRating: number; 
         price: number;
         priceDiscount: number;
         description: string;
@@ -82,3 +85,10 @@ export type BuyBoxProps = {
     children: ReactNode;
     className: string;
 };
+
+export type ProductOptionsProps = {
+    options: string;
+    radius?: string;
+    shape: string;
+    type: string;
+}

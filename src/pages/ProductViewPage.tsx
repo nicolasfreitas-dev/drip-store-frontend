@@ -16,12 +16,11 @@ const ProductViewPage = () => {
                 <span>/</span>
                 <span>Tênis Nike Revolution 6 Next Nature Masculino</span>
             </div>
-            <div className="flex gap-[4rem] items-start w-fit bg-gray-600">
-                <Gallery className="bg-secondary" navigation={true} swiperClass="flex items-center justify-center" width="700px" height="571px" radius="4px" images={viewProduct} />
-                <BuyBox className="w-[44rem] bg-indigo-900" produto={productInfo}>
-                    <ProductOptions>
-
-                    </ProductOptions>
+            <div className="flex gap-[4rem] items-start w-fit">
+                <Gallery className="" navigation={true} swiperClass="flex items-center justify-center" width="700px" height="571px" radius="4px" images={viewProduct} />
+                <BuyBox className="w-[44rem]" produto={productInfo}>
+                    <ProductOptions />
+                    <ProductOptions />
                 </BuyBox>
             </div>
             <Section title="Produtos Relacionados" titleAlign="left" link={showAllProducts}>

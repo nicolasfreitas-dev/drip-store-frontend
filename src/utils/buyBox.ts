@@ -8,10 +8,13 @@ export const productInfo = [
             ref: 38416711,
             }
         ],
-        stars: 5,
-        rating: 90,
+        stars: {
+            src: "/src/assets/star-icon.svg",
+        },
+        rating: 4.7,
+        totalRating: 90,
         price: 200,
-        priceDiscount: 149.9,
+        priceDiscount: 249.90,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
     },
 ];

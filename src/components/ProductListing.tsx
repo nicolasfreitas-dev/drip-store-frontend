@@ -11,7 +11,7 @@ const ProductListing: React.FC<ProductListingProps> = ({
         <div className={className}>
             {products.map((item, index) => (
                 <div key={index}>
-                    <NavLink to="/produto">
+                    <NavLink to="/produto/:id">
                         <ProductCard
                             image={item.image}
                             alt={item.alt}

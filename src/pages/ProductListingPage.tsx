@@ -41,7 +41,7 @@ const ProductListingPage = () => {
                         />
                     </aside>
                     <ProductListing
-                        className="w-full grid grid-cols-4 gap-2"
+                        className="w-full grid grid-cols-3 gap-2"
                         products={productsList}
                     />
                 </div>

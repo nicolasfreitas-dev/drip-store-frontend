@@ -14,7 +14,7 @@ const Header = () => {
                     src={logoHeader}
                     alt={"Logo digital college colorida"}
                 />
-                <div className="flex items-center max-w-[55.9rem] w-full h-[6rem] rounded-[0.8rem] bg-lightGray3 px-[1.6rem] mx-[8rem]">
+                <div className="flex items-center max-w-[55.9rem] w-full h-[6rem] rounded-[0.8rem] bg-lightGray3 px-[1.6rem] mx-[7rem]">
                     <Input
                         className="w-full text-[1.6rem] bg-transparent border-0 outline-none"
                         placeholder="Pesquisar produto..."
@@ -22,7 +22,7 @@ const Header = () => {
                     />
                     <Search className="size-[2.4rem] text-lightGray2" />
                 </div>
-                <span className="w-fit text-darkGray2 underline underline-offset-4 text-[1.6rem] mr-[6.4rem] cursor-pointer hover:text-primary">
+                <span className="text-darkGray2 underline underline-offset-4 text-[1.6rem] mr-[6.4rem] cursor-pointer hover:text-primary">
                     Cadastre-se
                 </span>
                 <Button className="w-[10rem] h-[4rem] text-white font-bold text-[1.6rem] rounded-[0.8rem] mr-[9.6rem] hover:scale-105 transition-all ease-in-out duration-200">
