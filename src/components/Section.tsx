@@ -22,8 +22,12 @@ const Section: React.FC<SectionProps> = ({
                 <p className={titleStyle}>{title}</p>
                 {isList ? (
                     <div className="flex max-w-max w-full items-center gap-3 h-[6rem] p-[1rem] border-[1px] border-darkGray2 rounded-[0.4rem] bg-transparent text-[1.6rem] mr-3">
-                        <h3 className="">Ordernar por: </h3>
-                        <select className="bg-transparent outline-none font-normal" name="order" id="order">
+                        <h3>Ordernar por: </h3>
+                        <select
+                            className="bg-transparent outline-none font-normal"
+                            name="order"
+                            id="order"
+                        >
                             <option value="1">mais relevantes</option>
                             <option value="2">mais caros</option>
                             <option value="3">mais baratos</option>

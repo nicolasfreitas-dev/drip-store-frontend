@@ -77,7 +77,7 @@ export type BuyBoxProps = {
             src: string;
         };
         rating: number;
-        totalRating: number; 
+        totalRating: number;
         price: number;
         priceDiscount: number;
         description: string;
@@ -87,8 +87,7 @@ export type BuyBoxProps = {
 };
 
 export type ProductOptionsProps = {
-    options: string;
-    radius?: string;
+    options: Array<string>;
+    radius: string;
     shape: string;
-    type: string;
-}
+};
