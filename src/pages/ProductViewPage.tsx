@@ -22,12 +22,14 @@ const ProductViewPage = () => {
             </div>
             <div className="flex gap-[4rem] items-start w-fit">
                 <Gallery
-                    className=""
+                    className="bg-secondary"
+                    showThumbs={true}
                     navigation={true}
+                    pagination={false}
                     swiperClass="flex items-center justify-center"
                     width="700px"
                     height="571px"
-                    radius="4px"
+                    radius="rounded-[4px]"
                     images={viewProduct}
                 />
                 <BuyBox className="w-[44rem]" produto={productInfo}>
@@ -36,14 +38,14 @@ const ProductViewPage = () => {
                     </h4>
                     <ProductOptions
                         options={["36", "37", "38", "39", "40", "41", "42"]}
-                        radius="4px"
+                        radius="rounded-[4px]"
                         shape="square"
                     />
                     <h4 className="text-lightGray font-bold py-2">
                         Cor do produto
                     </h4>
                     <ProductOptions
-                        options={["#6FEEFF", "#FF6969", "#5E5E5E", "#6D70B7"]}
+                        options={["bg-[#6FEEFF]", "bg-[#FF6969]", "bg-[#5E5E5E]", "bg-[#6D70B7]"]}
                         radius="full"
                         shape="circle"
                     />

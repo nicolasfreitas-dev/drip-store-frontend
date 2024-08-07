@@ -1,8 +1,9 @@
 import { ReactNode } from "react";
 
 export type GalleryProps = {
-    className: string;
-    navigation: boolean;
+    className?: string;
+    navigation?: boolean;
+    pagination?: boolean;
     swiperClass?: string;
     width: string;
     height: string;
@@ -10,6 +11,7 @@ export type GalleryProps = {
     images: Array<{ src: string; alt: string }>;
     radius?: string;
     showThumbs?: boolean;
+    thumbStyle?: string;
 };
 
 export type ProductCardProps = {
@@ -66,6 +68,7 @@ export type CollectionProps = {
 export type FilterGroupProps = {
     title: string;
     inputType: string;
+    name?: string;
     options: Array<{ text: string; values?: string }>;
 };
 

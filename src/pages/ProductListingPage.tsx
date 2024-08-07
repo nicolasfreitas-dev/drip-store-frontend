@@ -38,6 +38,7 @@ const ProductListingPage = () => {
                             title="Estado"
                             inputType="radio"
                             options={estado}
+                            name="radio"
                         />
                     </aside>
                     <ProductListing

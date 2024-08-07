@@ -39,7 +39,7 @@ const BuyBox: React.FC<BuyBoxProps> = ({ produto, children, className }) => {
                         </span>
                         <span className="text-lightGray">({item.totalRating} avaliações)</span>
                     </div>
-                    <div className="flex text- gap-2">
+                    <div className="flex gap-2">
                         <h3 className="text-5xl text-darkGray2 font-bold">
                             <span className="font-normal text-2xl">R$</span> {item.price}
                         </h3>

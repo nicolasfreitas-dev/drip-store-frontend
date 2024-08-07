@@ -15,6 +15,14 @@ export const viewProduct = [
         src: "/white-sneakers-2.png",
         alt: "Tênis Nike Revolution 6 Next Nature Masculino",
     },
+    {
+        src: "/white-sneakers-2.png",
+        alt: "Tênis Nike Revolution 6 Next Nature Masculino",
+    },
+    {
+        src: "/white-sneakers-2.png",
+        alt: "Tênis Nike Revolution 6 Next Nature Masculino",
+    },
 ]
 
 export const showAllProducts = [

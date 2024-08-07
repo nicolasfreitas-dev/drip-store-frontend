@@ -11,13 +11,14 @@ const ProductOptions: React.FC<ProductOptionsProps> = ({
             {shape === "circle"
                 ? options.map((item, index) => (
                       <div
-                          className={`size-12 mb-10 bg-[${item}] rounded-${radius} cursor-pointer`}
+                          className={`size-12 mb-10 ${item} rounded-${radius} cursor-pointer hover:border-2 hover:border-primary`}
                           key={index}
-                      ></div>
+                      >
+                      </div>
                   ))
                 : options.map((item, index) => (
                       <div
-                          className={`flex items-center justify-center size-16 border-[1px] border-lightGray2 rounded-[${radius}] text-darkGray2 font-bold mb-4 cursor-pointer`}
+                          className={`flex items-center justify-center size-16 border-[1px] border-lightGray2 ${radius} text-darkGray2 font-bold mb-4 cursor-pointer hover:bg-primary hover:text-white`}
                           key={index}
                       >
                           {item}
