@@ -30,8 +30,6 @@ const Gallery: React.FC<GalleryProps> = ({
     swiperClass,
     images,
 }) => {
-    const [thumbsSwiper, setThumbsSwiper] = useState(null);
-
     return (
         <div className="flex flex-col gap-5">
             <Swiper
@@ -43,7 +41,6 @@ const Gallery: React.FC<GalleryProps> = ({
                     disableOnInteraction: false,
                 }}
                 speed={1500}
-                thumbs={{ swiper: thumbsSwiper }}
                 modules={[Navigation, Pagination, Autoplay, Thumbs, FreeMode]}
                 className={`${className} ${radius}`}
                 style={{ width: width, height: height }}
