@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 import Logo from "@/components/Logo";
 import logoHeader from "@/assets/logo-header.png";
 import { Search, ShoppingCart } from "lucide-react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -44,18 +44,18 @@ const Header = () => {
                     >
                         Produtos
                     </NavLink>
-                    <NavLink
-                        to="/categorias"
+                    <Link
+                        to="/404notfound"
                         className="aria-[current=page]:font-bold aria-[current=page]:text-primary aria-[current=page]:border-b-[3px] aria-[current=page]:border-primary"
                     >
                         Categorias
-                    </NavLink>
-                    <NavLink
-                        to="/meuspedidos"
+                    </Link>
+                    <Link
+                        to="/404notfound"
                         className="aria-[current=page]:font-bold aria-[current=page]:text-primary aria-[current=page]:border-b-[3px] aria-[current=page]:border-primary"
                     >
                         Meus pedidos
-                    </NavLink>
+                    </Link>
                 </ul>
             </nav>
         </header>
