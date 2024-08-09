@@ -19,22 +19,22 @@ const HomePage = () => {
     return (
         <div className="max-w-full max-h-min">
             <div className="w-full h-[68.1rem] flex items-start justify-between absolute px-[10rem] bg-lightGray3">
-                <div className="flex flex-col max-w-[51rem] pt-[10rem] relative z-[1]">
-                    <span className="text-warning font-bold pb-[1rem]">
+                <div className="flex flex-col max-w-[51rem] pt-40 relative z-[1]">
+                    <span className="text-warning font-bold pb-4">
                         Melhores ofertas personalizadas
                     </span>
-                    <h1 className="text-[6rem] font-bold text-darkGray leading-[6rem] pb-[2rem]">
+                    <h1 className="text-8xl font-bold text-darkGray leading-[6rem] pb-8">
                         Queima de estoque Nike 🔥
                     </h1>
-                    <p className="text-[1.8rem] pb-[4rem]">
+                    <p className="text-[1.8rem] pb-16">
                         Consequat culpa exercitation mollit nisi excepteur do do
                         tempor laboris eiusmod irure consectetur.
                     </p>
-                    <Button className="w-[22rem] h-[4.8rem] rounded-[0.8rem] text-[1.6rem] text-white font-bold cursor-pointer hover:scale-105 transition-all ease-in duration-200">
+                    <Button className="w-[22rem] h-[4.8rem] rounded-[8px] text-2xl text-white font-bold cursor-pointer hover:scale-105 transition-all ease-in duration-200">
                         Ver ofertas
                     </Button>
                 </div>
-                <div className="size-[14rem] relative top-28 left-24">
+                <div className="size-56 relative top-28 left-24">
                     <img
                         className=""
                         src={ornament}
@@ -52,7 +52,7 @@ const HomePage = () => {
                 imageStyle="relative left-[50rem] bottom-12 object-contain"
                 images={homeImages}
             />
-            <div className="flex flex-col px-[10rem] pb-[12rem]">
+            <div className="flex flex-col px-40 pb-48">
                 <Section
                     className="w-full items-center"
                     title="Coleções em destaque"
@@ -70,39 +70,35 @@ const HomePage = () => {
                     titleAlign="center"
                 >
                     <div className="flex w-full gap-[4.8rem] h-[28.1rem]">
-                        <div className="flex flex-col items-center gap-[1.2rem]">
-                            <div className="size-[10.4rem] bg-white rounded-full flex items-center justify-center shadow-[0px_4px_25px_rgba(0,0,0,0.05)] cursor-pointer">
-                                <img className="" src={shirt} alt="Camisetas" />
+                        <div className="flex flex-col items-center gap-5">
+                            <div className="size-40 bg-white rounded-full flex items-center justify-center shadow-[0px_4px_25px_rgba(0,0,0,0.05)] cursor-pointer">
+                                <img  src={shirt} alt="Camisetas" />
                             </div>
-                            <span className="text-[1.4rem] font-bold text-darkGray2">Camisetas</span>
+                            <span className="text-2xl font-bold text-darkGray2">Camisetas</span>
                         </div>
-                        <div className="flex flex-col items-center gap-[1.2rem]">
-                            <div className="size-[10.4rem] bg-white rounded-full flex items-center justify-center shadow-[0px_4px_25px_rgba(0,0,0,0.05)] cursor-pointer">
-                                <img className="" src={pants} alt="Calças" />
+                        <div className="flex flex-col items-center gap-5">
+                            <div className="size-40 bg-white rounded-full flex items-center justify-center shadow-[0px_4px_25px_rgba(0,0,0,0.05)] cursor-pointer">
+                                <img  src={pants} alt="Calças" />
                             </div>
-                            <span className="text-[1.4rem] font-bold text-darkGray2">Calças</span>
+                            <span className="text-2xl font-bold text-darkGray2">Calças</span>
                         </div>
-                        <div className="flex flex-col items-center gap-[1.2rem]">
-                            <div className="size-[10.4rem] bg-white rounded-full flex items-center justify-center shadow-[0px_4px_25px_rgba(0,0,0,0.05)] cursor-pointer">
-                                <img className="" src={pants} alt="Bonés" />
+                        <div className="flex flex-col items-center gap-5">
+                            <div className="size-40 bg-white rounded-full flex items-center justify-center shadow-[0px_4px_25px_rgba(0,0,0,0.05)] cursor-pointer">
+                                <img  src={pants} alt="Bonés" />
                             </div>
-                            <span className="text-[1.4rem] font-bold text-darkGray2">Bonés</span>
+                            <span className="text-2xl font-bold text-darkGray2">Bonés</span>
                         </div>
-                        <div className="flex flex-col items-center gap-[1.2rem]">
-                            <div className="size-[10.4rem] bg-white rounded-full flex items-center justify-center shadow-[0px_4px_25px_rgba(0,0,0,0.05)] cursor-pointer">
-                                <img
-                                    className=""
-                                    src={headphones}
-                                    alt="Headphones"
-                                />
+                        <div className="flex flex-col items-center gap-5">
+                            <div className="size-40 bg-white rounded-full flex items-center justify-center shadow-[0px_4px_25px_rgba(0,0,0,0.05)] cursor-pointer">
+                                <img src={headphones} alt="Headphones" />
                             </div>
-                            <span className="text-[1.4rem] font-bold text-darkGray2">Headphones</span>
+                            <span className="text-2xl font-bold text-darkGray2">Headphones</span>
                         </div>
-                        <div className="flex flex-col items-center gap-[1.2rem]">
-                            <div className="size-[10.4rem] bg-white rounded-full flex items-center justify-center shadow-[0px_4px_25px_rgba(0,0,0,0.05)] cursor-pointer">
-                                <img className="" src={shoes} alt="Sapatos" />
+                        <div className="flex flex-col items-center gap-5">
+                            <div className="size-40 bg-white rounded-full flex items-center justify-center shadow-[0px_4px_25px_rgba(0,0,0,0.05)] cursor-pointer">
+                                <img  src={shoes} alt="Sapatos" />
                             </div>
-                            <span className="text-[1.4rem] font-bold text-darkGray2">Sapatos</span>
+                            <span className="text-2xl font-bold text-darkGray2">Sapatos</span>
                         </div>
                     </div>
                 </Section>

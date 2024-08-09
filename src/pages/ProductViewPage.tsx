@@ -12,15 +12,15 @@ import {
 
 const ProductViewPage = () => {
     return (
-        <div className="w-full flex flex-col px-[10rem] pb-[12.7rem]">
-            <div className="flex gap-5 pb-[4rem] pt-[2rem]">
+        <div className="w-full flex flex-col px-40 pb-[12.7rem]">
+            <div className="flex gap-5 pb-16 pt-8">
                 <span>Home</span>
                 <span>/</span>
                 <span>Produtos</span>
                 <span>/</span>
                 <span>Tênis Nike Revolution 6 Next Nature Masculino</span>
             </div>
-            <div className="flex gap-[4rem] items-start w-fit">
+            <div className="flex gap-16 items-start w-fit">
                 <Gallery
                     className="bg-secondary"
                     showThumbs={true}

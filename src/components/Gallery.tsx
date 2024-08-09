@@ -65,7 +65,7 @@ const Gallery: React.FC<GalleryProps> = ({
                 >
                     {images.map((item, index) => (
                         <SwiperSlide key={index}>
-                            <div className={`w-[11rem] h-[9.6rem] flex items-center justify-center bg-[#FFC0BC] ${radius}`}>
+                            <div className={`w-44 h-[9.6rem] flex items-center justify-center bg-[#FFC0BC] ${radius}`}>
                                 <img
                                     className="w-32 h-16 object-contain"
                                     src={item.src}

@@ -9,7 +9,7 @@ const Informations: React.FC<InformationsProps> = ({
 }) => {
     return (
         <div>
-            <div className="font-bold text-[1.8rem] mb-9">{title}</div>
+            <div className="font-bold text-3xl mb-9">{title}</div>
             <div>
                 {informations.map((item, index) => {
                     return (

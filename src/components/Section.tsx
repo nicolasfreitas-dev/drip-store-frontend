@@ -17,11 +17,11 @@ const Section: React.FC<SectionProps> = ({
     return (
         <section className={className}>
             <div
-                className={`w-full flex items-center justify-between py-[3rem] text-[2.4rem] font-bold text-darkGray2 ${alignmentClass}`}
+                className={`w-full flex items-center justify-between py-12 text-[2.4rem] font-bold text-darkGray2 ${alignmentClass}`}
             >
                 <p className={titleStyle}>{title}</p>
                 {isList ? (
-                    <div className="flex max-w-max w-full items-center gap-3 h-[6rem] p-[1rem] border-[1px] border-darkGray2 rounded-[0.4rem] bg-transparent text-[1.6rem] mr-3">
+                    <div className="flex max-w-max w-full items-center gap-3 h-24 p-4 border-[1px] border-darkGray2 rounded-[4px] bg-transparent text-2xl mr-3">
                         <h3>Ordernar por: </h3>
                         <select
                             className="bg-transparent outline-none font-normal"
@@ -41,7 +41,7 @@ const Section: React.FC<SectionProps> = ({
                             key={index}
                         >
                             <Link
-                                className="text-[1.8rem] text-primary font-medium"
+                                className="text-3xl text-primary font-medium"
                                 to={item.href}
                             >
                                 {item.text}

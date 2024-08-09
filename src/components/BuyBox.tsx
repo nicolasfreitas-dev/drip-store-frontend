@@ -54,7 +54,7 @@ const BuyBox: React.FC<BuyBoxProps> = ({ produto, children, className }) => {
                 </div>
             ))}
             {children}
-            <Button className="w-[22rem] h-[4.8rem] bg-warning text-white font-bold text-[1.6rem] rounded-[0.8rem]">
+            <Button className="w-80 h-[4.8rem] bg-warning text-white font-bold text-[1.6rem] rounded-[8px]">
                 Comprar
             </Button>
         </div>
