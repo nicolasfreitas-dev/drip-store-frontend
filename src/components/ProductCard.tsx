@@ -21,7 +21,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
             </div>
             <div className="text-[2.4rem]">
                 <p className=" text-darkGray2 cursor-pointer">{name}</p>
-                <div className="flex gap-4">
+                <div className="flex pt-4 gap-4">
                     <span className="text-lightGray line-through">
                         ${price}
                     </span>

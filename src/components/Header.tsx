@@ -23,7 +23,7 @@ const Header = () => {
                     <Search className="size-10 text-lightGray2 cursor-pointer" />
                 </div>
                 <span className="text-darkGray2 underline underline-offset-4 text-2xl mr-[6.4rem] cursor-pointer hover:text-primary">
-                    Cadastre-se
+                    <Link to="/notfound">Cadastre-se</Link>
                 </span>
                 <Button className="w-40 h-16 text-white font-bold text-2xl rounded-[8px] mr-[9.6rem] hover:scale-105 transition-all ease-in-out duration-200">
                     Entrar
@@ -45,13 +45,13 @@ const Header = () => {
                         Produtos
                     </NavLink>
                     <Link
-                        to="/404notfound"
+                        to="/notfound"
                         className="aria-[current=page]:font-bold aria-[current=page]:text-primary aria-[current=page]:border-b-[3px] aria-[current=page]:border-primary"
                     >
                         Categorias
                     </Link>
                     <Link
-                        to="/404notfound"
+                        to="/notfound"
                         className="aria-[current=page]:font-bold aria-[current=page]:text-primary aria-[current=page]:border-b-[3px] aria-[current=page]:border-primary"
                     >
                         Meus pedidos
