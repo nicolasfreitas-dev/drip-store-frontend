@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-    E-commerce para venda de roupas e produtos esportivos.
+    E-commerce para venda de roupas e produtos esportivos. O foco deste projeto foi desenvolvedor o site na versão desktop, sem incluir responsividade.
 </p>
 
 <p align="center">
