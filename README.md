@@ -32,7 +32,7 @@
 
 <h3>Requisitos</h3>
 
-Para rodar este projeto na sua máquina será necessária que tenha instalado NodeJS para realizar a instalação das dependências.
+Para rodar este projeto na sua máquina será necessária que tenha instalado NodeJS para realizar a instalação das dependências e GIT para clonar este repositório.
 
 - [NodeJS](https://nodejs.org/pt)
 - [GIT](https://git-scm.com/downloads)
@@ -45,6 +45,12 @@ Como clonar o projeto na sua máquina
 git clone https://github.com/nicolasfreitas-dev/drip-store-frontend
 ```
 
+<h3>Acesse o diretório do projeto</h3>
+
+```
+cd drip-store-frontend
+```
+
 <h3>Instalando dependências</h3>
 
 ```
@@ -54,6 +60,5 @@ npm install
 <h3>Iniciando o projeto</h3>
 
 ```
-cd drip-store-frontend
 npm run dev
 ```
